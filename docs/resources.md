@@ -1,7 +1,7 @@
 # Resources
 
 #### Here will be some links (which wsa usefull during my research) I wanted to save 
-
+#### They are devided by topics
 
 ------------ React ------------
 
@@ -22,8 +22,8 @@
 
 ------------ Auth ------------
 
-1. []()
-2. []()
-3. []()
+1. [How To Use JSON Web Tokens (JWTs) in Express.js | DigitalOcean](https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs)
+2. [Node.js API Authentication with JWT (Json Web Token) - Auth Middleware - DEV Community](https://dev.to/cyberwolves/node-js-api-authentication-with-jwt-json-web-token-auth-middleware-ggm)
+3. [Username & Password Tutorial](https://www.passportjs.org/tutorials/password/)
 4. []()
 5. []()
