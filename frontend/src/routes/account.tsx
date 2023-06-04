@@ -1,4 +1,3 @@
-import React from "react";
 import { Form } from "react-router-dom";
 
 export default function Account() {
@@ -29,7 +28,6 @@ export default function Account() {
           ) : (
             <i>No Name</i>
           )}{" "}
-          <Favorite contact={contact} />
         </h1>
 
         {contact.twitter && (
@@ -67,25 +65,5 @@ export default function Account() {
         </div>
       </div>
     </div>
-  );
-}
-
-function Favorite({ contact }) {
-  // yes, this is a `let` for later
-  const favorite = contact.favorite;
-  return (
-    <Form method="post">
-      <button
-        name="favorite"
-        value={favorite ? "false" : "true"}
-        aria-label={
-          favorite
-            ? "Remove from favorites"
-            : "Add to favorites"
-        }
-      >
-        {favorite ? "★" : "☆"}
-      </button>
-    </Form>
   );
 }
